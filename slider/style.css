@@ -1,0 +1,42 @@
+:root {
+    --img-one:0;
+    --img-two:0;
+    --img_three:0;
+}
+
+body {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.image-container {
+    width: 50%;
+    position: relative;
+    height: 60vh;
+    border-radius: 3px;
+    border: 4px solid rgb(75, 75, 201);
+}
+
+#img-one {
+    z-index: var(--img-one);
+}
+
+#img-two {
+    z-index: var(--img-two);
+}
+
+#img-three {
+    z-index: var(--img_three);
+}
+img {
+    height: 100%;
+    width:100%;
+    object-fit: cover;
+    position: absolute;
+}
+a {
+    padding-left: 20px;
+}
