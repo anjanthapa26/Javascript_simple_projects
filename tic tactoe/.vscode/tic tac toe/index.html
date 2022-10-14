@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic tac toe</title>
+    <link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="player-field">
+        <form id="form-container">
+            <label for="player1">player1</label><br>
+        <input type="text" id="player1" name="player1"><br>
+        <label for="player2">player2</label><br>
+        <input type="text" id="player2" name="player2"><br>
+        <input type="submit" class="submit-btn" value='start game'/>
+    </form>
+    </div>
+
+
+    <div class="header-container hide-container">
+        <div class="board___player-turn"></div>
+        <div class="main-container" id="box-container">
+            <div class="cell-one item"></div>
+            <div class="cell-two item"></div>
+            <div class="cell-three item"></div>
+            <div class="cell-four item"></div>
+            <div class="cell-five item"></div>
+            <div class="cell-six item"></div>
+            <div class="cell-seven item"></div>
+            <div class="cell-eight item"></div>
+            <div class="cell-nine item"></div>
+        </div>
+        <div class="reset-container">
+            <button class="btn-reset">RESET BOARD</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
